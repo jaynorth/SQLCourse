@@ -12,7 +12,16 @@ namespace ConsoleApplication1
         {
 
             Console.WriteLine("Testing Git 2nd commit");
+            Console.WriteLine(ThrowDice());
             Console.ReadKey();
+
+
+        }
+
+        static int ThrowDice() {
+            Random rnd = new Random();
+            int dice = rnd.Next(1, 7);
+            return dice;
         }
     }
 }
