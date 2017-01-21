@@ -11,7 +11,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Testing Git");
+            Console.WriteLine("Testing Git 2nd commit");
             Console.ReadKey();
         }
     }
