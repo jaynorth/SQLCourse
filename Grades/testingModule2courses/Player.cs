@@ -19,8 +19,9 @@ namespace testingModule2courses
 
         public void ThrowDice(Dice dice) //parameter is a reference to class Dice with var dice as object instance variable: ex: player1.ThrowDice(dice1);
         {
-            
-
+            //Console.WriteLine(dice);
+            Console.Write("player is throwing "  );
+            Console.WriteLine(dice.name);
             int result = rnd.Next(1, 7);// Generates random number
 
             dice.SetValue(result);

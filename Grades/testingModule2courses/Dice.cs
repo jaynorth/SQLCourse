@@ -9,14 +9,19 @@ namespace testingModule2courses
     class Dice
     {
 
-        //public string name;
+        
         public int value;
-
+        public bool hold;
+        public string name;
+        
 
 
         public Dice()
         {
             value = 0;
+            hold = false;
+            
+            
         }
 
         public int GetValue() {
