@@ -9,16 +9,17 @@ namespace FieldsandProperties
     class Voiture
     {
 
-        private int _nbRoues;
+        //private int _nbRoues;
         private string _name;
 
         public Voiture(string name ="no name" )
         {
             _name = name;
+            NbRoues = 8;
         }
 
         public int NbRoues {
-            get; set;
+            get; private set;
         }
         public string  Name {
             get {
@@ -34,6 +35,11 @@ namespace FieldsandProperties
 
         }
 
+        public void setRoues() {
+            NbRoues = 18;
+        }
+
+        
 
 
 

@@ -12,8 +12,9 @@ namespace FieldsandProperties
         {
 
             Voiture v = new Voiture();
-            v.NbRoues = 5;
+            //v.NbRoues = 5;
             v.Name = "JAck";
+            v.setRoues();
             Console.WriteLine(v.NbRoues);
             Console.WriteLine(v.Name);
             Console.ReadKey();
