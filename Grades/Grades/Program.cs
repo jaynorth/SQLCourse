@@ -21,6 +21,13 @@ namespace Grades
             Console.WriteLine("Highest Grade " + stats.HighestGrade);
             Console.WriteLine("Lowest Grade " + stats.LowestGrade);
 
+            book.WriteGrades(Console.Out   );
+
+            stats.RandomNumber = 56;
+            Console.WriteLine(stats.RandomNumber);
+            stats.testFullProp = 28;
+            Console.ReadKey();
+            Console.WriteLine(stats.testFullProp);
             Console.ReadKey();
 
         }

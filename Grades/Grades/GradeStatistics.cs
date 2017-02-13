@@ -19,5 +19,19 @@ namespace Grades
         public float HighestGrade;
         public float LowestGrade;
 
+        public int RandomNumber { get; set; }
+
+        private int myVar;
+
+        public int testFullProp
+        {
+            get { return myVar; }
+            set { myVar = value; }
+        }
+
+
+
+
+
     }
 }
