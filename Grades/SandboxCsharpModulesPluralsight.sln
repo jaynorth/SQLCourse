@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingExceptions", "Handl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListTesting", "ConsoleApplication1\ListTesting.csproj", "{C6811A0E-D310-412B-9412-5A6620D167DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingFile", "ReadingFile\ReadingFile.csproj", "{AE6BC785-54B5-4BB0-8C36-E8D1C0A6647C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTesting", "FileTesting\FileTesting.csproj", "{FF35AF85-EFC0-48B4-8F5F-996FC3D3CB6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{C6811A0E-D310-412B-9412-5A6620D167DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6811A0E-D310-412B-9412-5A6620D167DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6811A0E-D310-412B-9412-5A6620D167DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6BC785-54B5-4BB0-8C36-E8D1C0A6647C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6BC785-54B5-4BB0-8C36-E8D1C0A6647C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6BC785-54B5-4BB0-8C36-E8D1C0A6647C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6BC785-54B5-4BB0-8C36-E8D1C0A6647C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF35AF85-EFC0-48B4-8F5F-996FC3D3CB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF35AF85-EFC0-48B4-8F5F-996FC3D3CB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF35AF85-EFC0-48B4-8F5F-996FC3D3CB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF35AF85-EFC0-48B4-8F5F-996FC3D3CB6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
