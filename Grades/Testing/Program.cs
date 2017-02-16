@@ -12,6 +12,12 @@ namespace Testing
         {
 
             int number = 34;
+            int age = 18;
+
+            string Pass = age > 21 ? "Can drink" : "Too young";
+
+            int[] someNumbers = { 4, 7, 9 };
+
 
             if (number > 65)
             {
@@ -23,20 +29,17 @@ namespace Testing
                 Console.WriteLine("smaller than 36");
 
             }
-            else {
+            else
+            {
                 Console.WriteLine("Out of Range");
             }
 
             //Console.ReadKey();
 
 
-            int age = 18;
-
-            string Pass = age > 21 ? "Can drink" : "Too young";
-
-            int[] someNumbers = { 4, 7, 9 };
-
-            foreach (int value in someNumbers) {
+            
+            foreach(int value in someNumbers)
+            {
                 Console.WriteLine(value);
             }
 
@@ -44,9 +47,9 @@ namespace Testing
             Console.WriteLine(Pass);
             Console.ReadKey();
 
-            public int MyProperty { get; set; }
+            
 
 
-    }
+        }
     }
 }

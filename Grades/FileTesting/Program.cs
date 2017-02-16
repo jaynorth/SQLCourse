@@ -18,6 +18,7 @@ namespace FileTesting
             string filePath = @"nameList.txt";
             StreamReader sr = new StreamReader(filePath); //Create StreamReader object (using System.IO)
             string line = sr.ReadLine();
+            
             while (line != null)
             {
                 string[] tab = line.Split(';');//adds line to list to array
@@ -28,6 +29,8 @@ namespace FileTesting
                 Console.WriteLine();
                 line = sr.ReadLine();//Goes to next line
             }
+
+            string wholeFile = sr.ReadToEnd();
 
             sr.Close();//closes file
             Console.ReadKey();
